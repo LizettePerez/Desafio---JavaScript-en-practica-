@@ -1,0 +1,11 @@
+body {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.primerNumero, .segundoNumero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10px;
+}
