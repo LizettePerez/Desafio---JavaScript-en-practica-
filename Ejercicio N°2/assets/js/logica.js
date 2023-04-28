@@ -7,7 +7,8 @@ let aqua = document.querySelector('#btn-5');
 let rosa = document.querySelector('#btn-6');
 
 rojo.addEventListener('click', () => {
-  pintar.style.backgroundColor = '#e53e3e';
+  caja.style.backgroundColor = rojo.style.backgroundColor;
+  // pintar.style.backgroundColor = '#e53e3e';
 });
 
 naranja.addEventListener('click', () => {
