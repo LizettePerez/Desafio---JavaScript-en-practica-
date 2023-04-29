@@ -16,8 +16,8 @@ form.addEventListener("submit", function (event) {
 function validar(nombre, asunto, mensaje) {
 
     let pasamosLaValidacion = true;
-    let validacionNombre = /^[a-zA-Z]+$/gim;
-    let validacion = /^[a-zA-Z0-9]+/gim;
+    let validacionNombre = /[a-zA-Z]/gim;
+    let validacion = /[a-zA-Z0-9]/gim;
 
     if (validacionNombre.test(nombre) == false) {
         document.querySelector(".errorNombre").innerHTML = "Ingrese un nombre válido."
